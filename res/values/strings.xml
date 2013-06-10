@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="naranja">#F64F00</color>
+	
+    <string name="app_name">teleconote</string>
+    <string name="cifrado">Cifrado</string>	
+    
+    <string name="menu_crear">Crear</string>
+    <string name="menu_borrar">Borrar</string>
+    <string name="menu_ayuda">Ayuda</string>
+    
+    <string name="titulo_de_la_nota">Titulo de la nota</string>
+    <string name="introduzca_titulo_nota">Introduzca titulo nota</string>
+    
+    <string name="contenido_de_la_nota">Contenido de la nota</string>
+    <string name="introduzca_contenido_nota">Introduzca contenido nota</string>
+    
+    <string name="introduzca_categoria_nota">Introduzca categoria nota</string>
+    <string name="categoria_de_la_nota">Categoria de la nota</string>
+    
+    <string name="lista_vacia">Lista vacia, añade nota</string>
+    
+    <string name="guardar">Guardar</string>
+    <string name="cifrar">Cifrar</string>
+    <string name="cancelar">Cancelar</string>
+    
+    <string name="msg_ayuda">Mensaje Ayuda al Usuario</string>
+    
+   	<string name="texto_1">Texto 1</string>
+    <string name="texto_2">Texto 2</string>
+    
+    <string name="campoKey">Introduce clave</string>
+    
+ </resources>

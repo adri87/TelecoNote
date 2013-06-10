@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".DetalleNotaActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView            
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/teleconote" />
+
+        <ImageView
+            android:id="@+id/imageCifrado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/cifrado"
+            android:src="@drawable/ic_menu_cifrar" />
+    </RelativeLayout>
+    
+     <TextView
+        android:id="@+id/titulo_nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_de_la_nota"
+        android:textColor="#F64F00" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/introduzca_titulo_nota" >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/contenido_nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contenido_de_la_nota"
+        android:textColor="#F64F00" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:ems="10"
+        android:hint="@string/introduzca_contenido_nota" />
+
+    <TextView
+        android:id="@+id/categoria_de_la_clase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/categoria_de_la_nota"
+        android:textColor="#F64F00" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/introduzca_categoria_nota" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.35" >
+
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/guardar" />
+
+        <Button
+            android:id="@+id/cifrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/cifrar" />
+
+        <Button
+            android:id="@+id/Cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/cancelar" />
+
+    </LinearLayout>
+</LinearLayout>
